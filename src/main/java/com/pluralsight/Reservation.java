@@ -17,7 +17,6 @@ public class Reservation {
         this.weekend = weekend;
         this.reservationTotal = reservationTotal;
     }
-
     public Reservation(String roomType, double price) {
         this.roomType = roomType;
         this.price = price;

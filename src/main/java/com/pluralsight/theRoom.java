@@ -7,9 +7,13 @@ public class theRoom {
     private boolean Occupied;
     private  boolean Available;
 
+    //Constructor
+
+    public theRoom() {
+    }
 
 
-    //Gettters and Setters
+    //Getters and Setters
 
 
     public boolean isOccupied() {
@@ -44,4 +48,13 @@ public class theRoom {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "theRoom{" +
+                "numberOfBeds=" + numberOfBeds +
+                ", price=" + price +
+                ", Occupied=" + Occupied +
+                ", Available=" + Available +
+                '}';
+    }
 }
