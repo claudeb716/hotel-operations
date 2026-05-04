@@ -4,13 +4,29 @@ public class theRoom {
     //Attributes
     private int numberOfBeds;
     private int price;
-    private boolean isOccupied;
-    private  boolean isAvailable;
+    private boolean Occupied;
+    private  boolean Available;
 
 
 
     //Gettters and Setters
 
+
+    public boolean isOccupied() {
+        return Occupied;
+    }
+
+    public void setOccupied(boolean occupied) {
+        Occupied = occupied;
+    }
+
+    public boolean isAvailable() {
+        return Available;
+    }
+
+    public void setAvailable(boolean available) {
+        Available = available;
+    }
 
     public int getNumberOfBeds() {
         return numberOfBeds;
@@ -28,19 +44,4 @@ public class theRoom {
         this.price = price;
     }
 
-    public boolean isOccupied() {
-        return isOccupied;
-    }
-
-    public void setOccupied(boolean occupied) {
-        isOccupied = occupied;
-    }
-
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-
-    public void setAvailable(boolean available) {
-        isAvailable = available;
-    }
 }
